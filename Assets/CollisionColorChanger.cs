@@ -8,7 +8,8 @@ public class CollisionColorChanger : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		gameObject.GetComponent<MeshRenderer> ().material.color = Color.blue;
+		Color c = new Color (0,0,1,0.5f);
+		gameObject.GetComponent<MeshRenderer> ().material.color = c;
 	}
 	
 	// Update is called once per frame
